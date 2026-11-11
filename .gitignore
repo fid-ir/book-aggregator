@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Данные (сырьё и результаты парсинга)
+data/raw/**/html/
+data/raw/**/links.jsonl
+data/raw/**/books.jsonl
+data/*.log
+logs_*.txt
+
+# Docker volumes
+pgdata/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Временное
+*.tmp
+*.bak
+nohup.out
